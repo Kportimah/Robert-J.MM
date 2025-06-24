@@ -165,8 +165,6 @@ gsap.from('.testimonial-content', {
 
 
 
-
-// is is the part that I remove thew animation from the conract section
 // Contact Section Animation
 gsap.from('.contact-info', {
     scrollTrigger: {
@@ -174,7 +172,7 @@ gsap.from('.contact-info', {
         start: 'top center',
         toggleActions: 'play none none reverse'
     },
-    duration: ,
+    duration: 1,
     x: -100,
     opacity: 0,
     ease: 'power4.out'
